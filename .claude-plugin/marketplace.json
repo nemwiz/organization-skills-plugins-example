@@ -1,0 +1,29 @@
+{
+  "name": "organization-skills-plugins-example",
+  "owner": {
+    "name": "Dummy org",
+    "email": "contact@dummy-org.com"
+  },
+  "metadata": {
+    "description": "Example plugins and skills for an organization, split per department.",
+    "version": "0.0.1"
+  },
+  "plugins": [
+    {
+      "name": "sales",
+      "source": "./sales"
+    },
+    {
+      "name": "engineering",
+      "source": "./engineering"
+    },
+    {
+      "name": "general",
+      "source": "./general"
+    },
+    {
+      "name": "marketing",
+      "source": "./marketing"
+    }
+  ]
+}
